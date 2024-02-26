@@ -6,7 +6,7 @@ More YouTube video id's can be added in `video_ids.txt`.
 ### Running Benchmark
 Have `pyannote.audio` installed, of course, as well as `yt-dlp` and `ffmpeg`.  
 
-Also obtain a Hugging Face token for `pyannote.audio` speaker diarization and put it in the script.
+Also obtain a Hugging Face token for `pyannote.audio` speaker diarization and put it in the script (line `103`).
 
 Then simply run the script, passing in the GPU number you'd like to benchmark (obtain from `nvidia-smi`).
 ```
